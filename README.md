@@ -1,4 +1,4 @@
-# Navegue Seguro - Guia de Segurança Digital 🛡️
+# Navegue Seguro - Guia de Segurança Digital 
 
 Uma *landing page* simples, intuitiva e com código limpo, desenvolvida especificamente para o público da terceira idade. O objetivo principal deste projeto é ensinar boas práticas de segurança na internet e ajudar os utilizadores a evitarem burlas (golpes) no telemóvel e no computador.
 
