@@ -20,7 +20,7 @@ Este projeto foi construído de forma simples e direta, sem recurso a biblioteca
 
 **Visualizar Online:**
 Pode aceder à versão final do site através do GitHub Pages:
-[Inserir aqui o link do seu site no GitHub Pages, ex: https://seunome.github.io/navegueseguro/]
+https://devmarinhou.github.io/Navegue-Seguro/
 
 **Executar Localmente (no seu computador):**
 1. Faça o *download* (descarregue) ou clone este repositório.
