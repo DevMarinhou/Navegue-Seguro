@@ -1,26 +1,26 @@
 :root {
     --tamanho-fonte: 18px;
-    --cor-fundo: #f0f4f8; /* Fundo ligeiramente mais cinza-azulado para não cansar a vista */
+    --cor-fundo: #f0f4f8; 
     --cor-texto: #1a202c;
-    --cor-dica: #2b6cb0;    /* Azul mais moderno */
-    --cor-alerta: #c53030;  /* Vermelho de alerta suave */
-    --cor-ajuda: #2f855a;   /* Verde acolhedor */
+    --cor-dica: #2b6cb0;    
+    --cor-alerta: #c53030;  
+    --cor-ajuda: #2f855a;   
     --cor-cartao: #ffffff;
 }
 
 body {
-    /* Utiliza fontes modernas e arredondadas dependendo do computador/telemóvel */
+    
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: var(--tamanho-fonte);
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     margin: 0;
     padding: 0;
-    line-height: 1.7; /* Espaçamento maior entre as linhas para facilitar a leitura */
+    line-height: 1.7; 
 }
 
 header {
-    background: linear-gradient(135deg, #2b6cb0, #4299e1); /* Efeito de gradiente */
+    background: linear-gradient(135deg, #2b6cb0, #4299e1); 
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -44,7 +44,7 @@ header p {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 15px; /* Espaço entre os botões */
+    gap: 15px; 
 }
 
 .acessibilidade button {
@@ -54,14 +54,14 @@ header p {
     background-color: white;
     color: var(--cor-dica);
     border: none;
-    border-radius: 25px; /* Botões em formato de "pílula" */
+    border-radius: 25px; 
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     transition: transform 0.2s, background-color 0.2s;
 }
 
 .acessibilidade button:hover {
-    transform: scale(1.05); /* Cresce ligeiramente ao passar o rato */
+    transform: scale(1.05); 
     background-color: #f8f9fa;
 }
 
@@ -81,7 +81,7 @@ main {
     padding-bottom: 15px;
 }
 
-/* Linha decorativa por baixo dos títulos das secções */
+
 .titulo-secao::after {
     content: '';
     position: absolute;
@@ -94,18 +94,18 @@ main {
     border-radius: 2px;
 }
 
-/* Estilo padrão para todos os cartões */
+
 .cartao {
     background-color: var(--cor-cartao);
     padding: 25px;
     margin-bottom: 25px;
-    border-radius: 12px; /* Cantos arredondados */
+    border-radius: 12px; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cartao:hover {
-    transform: translateY(-3px); /* Levanta ligeiramente o cartão */
+    transform: translateY(-3px); 
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
@@ -114,7 +114,7 @@ main {
     font-size: 1.3em;
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaço entre o emoji e o texto */
+    gap: 10px; 
 }
 
 .cartao ul {
@@ -125,7 +125,7 @@ main {
     margin-bottom: 12px;
 }
 
-/* Variações de cores dos cartões */
+
 .dica {
     border-left: 8px solid var(--cor-dica);
 }
@@ -141,14 +141,14 @@ main {
 }
 .ajuda h3 { color: var(--cor-ajuda); }
 
-/* Teste Interativo */
+
 .teste-seguranca {
     background-color: #edf2f7;
     padding: 30px;
     border-radius: 12px;
     text-align: center;
     margin-top: 50px;
-    border: 2px dashed #cbd5e0; /* Borda tracejada */
+    border: 2px dashed #cbd5e0; 
 }
 
 .teste-seguranca h2 {
