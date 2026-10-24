@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança na Internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Internet Segura</h1>
+        <p>Aprenda a se proteger de golpes no celular e no computador.</p>
+        <div class="acessibilidade">
+            <button id="diminuir-texto">A-</button>
+            <button id="aumentar-texto">A+</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="dica-card">
+            <h2>1. Desconfie de mensagens urgentes</h2>
+            <p>Se alguém pedir dinheiro ou dados pessoais dizendo que é uma emergência, não faça nada. Ligue para a pessoa usando o número que você já tem na agenda para confirmar.</p>
+        </section>
+
+        <section class="dica-card">
+            <h2>2. Cuidado com links falsos</h2>
+            <p>Bancos e lojas não mandam mensagens por SMS ou WhatsApp pedindo para você atualizar senhas. Nunca clique em links de origem desconhecida.</p>
+        </section>
+
+        <section class="dica-card">
+            <h2>3. Não compartilhe códigos</h2>
+            <p>Se você receber um código de 6 números no celular, não passe para ninguém. Os golpistas usam isso para roubar o seu WhatsApp.</p>
+        </section>
+
+        <section class="teste-seguranca">
+            <h2>Faça um teste rápido</h2>
+            <p>Você recebe uma mensagem do seu banco dizendo que sua conta foi bloqueada e pedindo para clicar num link. O que você faz?</p>
+            <button onclick="verificarResposta(false)">Clico no link para desbloquear</button>
+            <button onclick="verificarResposta(true)">Ignoro e ligo para o gerente</button>
+            <p id="resultado-teste"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Compartilhe essas dicas com seus amigos e familiares.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
